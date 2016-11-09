@@ -18,9 +18,14 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
+        "../node_modules/ignite-ui/css/structure/infragistics.css",
+        "../node_modules/ignite-ui/css/themes/infragistics/infragistics.theme.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/ignite-ui/js/infragistics.core-lite.js",
+        "../node_modules/ignite-ui/js/infragistics.lob-lite.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
